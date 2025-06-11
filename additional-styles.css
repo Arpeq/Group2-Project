@@ -1,0 +1,51 @@
+/* Add this to your existing styles.css file */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Enhanced feedback styling */
+.feedback-list ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.feedback-list ul li {
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+/* Score styling */
+.feedback-item h4 {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Error handling */
+.error-message {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+
+.success-message {
+  background-color: #d1fae5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
