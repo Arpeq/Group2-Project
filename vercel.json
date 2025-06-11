@@ -21,7 +21,7 @@
     }
   ],
   "env": {
-    "OPENAI_API_KEY": "@openai_api_key",
-    "FIGMA_ACCESS_TOKEN": "@figma_access_token"
+    "OPENAI_API_KEY"
+    "FIGMA_ACCESS_TOKEN"
   }
 }
